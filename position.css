@@ -1,0 +1,6 @@
+@media screen and only (max-width: 415px){
+	#section1{
+		position: relative;
+		top: 30px;
+	}
+}

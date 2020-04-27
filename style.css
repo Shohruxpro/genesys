@@ -1,0 +1,696 @@
+html, body{
+	overflow-x: hidden;
+	margin:0;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	position: relative;
+	font-family: "helvetica neue", sans-serif;
+}	
+
+#fullPage{
+	width: 100%;
+	height: 100%;
+
+}
+ #section1, #contact{
+	background-color: #181b24;
+	height: 800px !important;
+}
+a{
+	text-decoration: none;
+}
+.header a {
+	font-weight: 500;
+	color: #86888C;
+	font-family: Montserrat;
+	
+}
+.leftside a{
+	font-size: 18px;
+	padding: 13px 0px 12px 0px;	 
+}
+.rightside a{
+	font-size: 16px;
+	position: relative;
+	top: 14px;
+	right: 100px;
+	z-index: 2;
+	margin: 0 15px;
+}
+#link3{
+	margin:0 40px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 72px 99px 0px 127px;
+}
+.logo{
+	vertical-align: middle;
+	padding-right: 64.07px;
+	max-width: 100%;
+	height: auto;
+}
+.description h1,h6{
+	color: #fff;
+	font-family: Sofia Pro Light, sans-serif;
+	margin: 0px 0px 0px 115px;
+}
+.description h1{
+		font-weight: bold;
+		font-size: 48px;
+		margin-top: 147px;	
+		line-height: 58px;
+		font-family: Sofia Pro Bold, sans-serif;
+		font-style: none;
+}
+.description h6{
+		font-weight: lighter;
+		font-size: 28px;
+		margin-top: 13px;
+		line-height: 42px;
+}
+#main_illustration{
+	position: relative;
+	bottom: 495px;
+	left: 720px;
+	max-width: 100%;
+	height: 300px;
+	display: block;	
+
+}
+
+
+#input1, #input3, #input4, textarea ::placeholder{
+	font-family: Sofia Pro Light, sans-serif;
+	font-size: 18px;
+	line-height: 23px;
+	color: gray;
+}
+input:focus{
+	outline: none;
+}
+#signup {
+	position: relative;
+	left: 116px;
+	top: 57px;
+	
+}
+#input1, #input3, #input4{
+	border:none;
+	background:#333948;
+	border-radius: 12px;
+	font-size: 18px;
+	line-height: 23px;
+	width: 353px;
+	height: 56px;
+	padding-left: 23px;
+	color: #fff;
+}
+#input1{
+	width: 360px;
+}
+#input2{
+	background-color: #2BD484;
+	border:none;
+	border-radius: 11px 12px 12px 11px;
+	color: #181B24;
+	text-align: center;
+	font-size: 20px;
+	line-height: 24px;
+	height: 56px;
+	width: 120px;
+	margin-left:-125px;
+	position: relative;
+	top: 1px;
+	cursor: pointer;
+	width: 130px;
+}
+
+#report{
+	background-color:#F8FAFD;
+	height: 800px !important;
+}
+#report .header, #report_heading, #statistcs, #survey_report{
+	position: relative;
+	bottom: 100px;
+}
+#report_heading, #heading, #description2{
+	margin-left: 120px;
+	margin-top: 92px;
+}
+#report_heading h1{
+
+	font-family: Sofia Pro Light;
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: bold;
+	font-family: Sofia Pro Bold, sans-serif;
+}
+#report_heading div{
+	color: #2BD585; 
+	font-weight: bold;
+	font-family: Sofia Pro Light; 
+	font-size: 56px; 
+	line-height: 57px; 
+	margin-top: 41px;
+	margin-bottom: -10px;
+}
+#statistcs h1{
+	color: #2BD585;
+	font-family: Sofia Pro Light, sans-serif;
+	font-size: 32px;
+	line-height: 38px;	
+}
+.stat1{
+	margin-left: 150px;
+	margin-top: 74px;
+}
+
+.stat2{
+	position: relative;
+	bottom: 148px;
+	left: 345px;
+
+}
+#statistcs h5{
+	font-family: Sofia Pro Light;	
+	color: #333948;
+	position: relative;
+	right: 32px;
+	bottom: 35px;
+	font-size: 24px;
+}
+.stat3 span{
+	position: relative;
+	left: 10px;
+}
+.stat3{
+	position: relative;
+	bottom: 296px;
+	left: 500px;
+}
+#survey_report{
+	position: relative;
+	left: 850px;
+	margin-top: -850px;
+}
+ .report_title h6{
+ 	font-family: Abhaya Libre Medium, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #333948;
+	padding: 20px 0px;
+ }
+ .report_documents a{
+ 	font-family: Sofia Pro Bold;
+ 	font-size: 18px;
+ 	line-height: 58px;
+ 	color: #333948;
+ 	background-color:  #F6F9FD;
+ 	box-shadow: 0px 8px 16px #D1E7FA;
+ 	border-radius: 8px;
+ 	padding: 15px 0px; 	
+
+ }
+ /*.report_documents a:hover{
+	position: relative;
+	right: 10px;
+ }*/
+ .report_documents{
+ 	margin-left: 115px;
+ 	font-weight: bold;
+ 	font-family: Sofia Pro Bold;
+ }
+ .report_documents span{
+	font-family: Sofia Pro Bold, sans-serif;
+ 	font-size: 20px; 
+ 	line-height: 18px; 
+ 	color:  #2BD585; 
+ 	padding-right: 24px;
+ 	position: relative;
+	right: 15px;
+		 }
+.report_documents img{
+	position: relative;
+	top: 10px;
+	left: 25px;
+	max-width: 100%;
+}
+.report_documents a{
+	padding: 20px 40px;
+}
+#product{
+	background-color: #F8FAFD;
+}
+#hand{
+	height: 150px;
+	position: relative;
+	top: 130px;
+}
+#hand img{
+	height: 500px;
+}
+#heading h1{
+	font-family: Sofia Pro Bold, sans-serif;
+	font-size: 48px;
+    line-height: 64px;
+    color: #333948;
+}
+#product a{
+	color: #181B24;
+	font-weight: bold;
+}
+#description2{
+color: #333948;
+font-family: Sofia Pro Light;
+font-size: 28px;
+line-height: 58px;
+}
+.form h2{
+	font-family: Sofia Pro Light;
+	font-size: 32px;
+	line-height: 48px;
+	text-align: center;	
+	color: #FFFFFF;
+	margin-top: 50px;
+
+}
+.format input{
+	position: relative;
+	left: 510px;
+	width: 472px !important; 
+	height: 45px !important; 
+}
+.format textarea{
+	border-radius: 12px;
+	background-color:#333948; ;
+	color: #fff;
+	border:none;
+	margin-left: 100px;
+	position: relative;
+	left: 415px;
+	width: 487px;
+	height: 100px;
+
+}
+	textarea:focus{
+		outline: none;
+	}
+	textarea::placeholder{
+		font-size:18px;
+		position: relative;
+		top: 10px;
+		left: 2px;
+	}
+.format button{
+	color:  #181B24;
+	font-family: Sofia Pro Light;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+	cursor: pointer;
+	background: #2BD484;
+	border-radius: 11px 12px 12px 11px;
+	border:none;
+	position: relative;
+	top: 70px;
+	left: 80px;
+	width: 164px;
+	height: 56px;
+}
+.copyright h6{
+	color: #FFFFFF;
+	font-family: Sofia Pro Light;
+	font-size: 18px;
+	line-height: 23px;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+.media{
+	display: none;
+}
+
+.toggle-block label{
+	font-size: 26px; 
+	position: relative;
+	bottom: 30px;
+	color: white;
+	margin-right: 40px;
+	width: 26px;
+	float: right;
+	display: none;
+}
+.toggle-block{
+	text-align: center;
+	display: none;
+}
+.navbar a{
+	text-decoration: none;
+	font-family: Sofia Pro, sans-serif;
+	display: block;
+	font-size: 32px;
+	margin: 0 40px 10px 40px;
+	line-height: 50px;
+	color: #181B24;
+	font-weight: bold;
+
+}
+.lang a{
+	display: inline-block;
+	margin: 10px 20px;
+	font-size: 20px;
+}
+.side-nav{
+	height: 800px;
+	width: 0px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left:0;
+	background-color: rgba(248,250,253,.959494);
+	opacity: 2;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition:  0.5s ;
+}
+.footer button{
+	display: none;
+}
+.btn-close{
+	font-size: 52px;
+	width: 20px;
+	height: 57.6px;
+	color: #181B24;
+	position: relative;
+	left: 150px;
+	top: -35px;
+
+}
+#just{
+	display: none;
+}
+
+@media screen and (max-width: 415px )
+{
+	.toggle-block{
+		display: block;
+	}
+	
+	#fullPage{
+		overflow-x: hidden;
+	}
+	#main_illustration img{
+		position: relative;
+		right: 720px;
+		display: block;
+		max-width: 100%;
+		height: auto;
+		top: -10px;
+
+	}
+	.header a{
+		display: none;
+	}
+	.description{
+		position: relative;
+		right: 80px;
+		top: 230px;
+	    font-family: Sofia Pro Bold, sans-serif;
+	    font-weight: bold;
+
+	}
+	.description h1{
+		font-size: 33px;
+}
+	.description h6{
+		position: relative;
+		bottom: 20px;
+		font-size: 18px;
+		width: 1000px;
+
+	}	
+	.description #second{
+		position: relative;
+		bottom: 15px;
+	}
+	#signup input{
+		position: relative;
+		top: 160px;
+	}
+	#input1, #input2{
+		position: relative;
+		right: 85px;
+		height: 45px;
+		border-radius: 10px;
+
+	}
+	#input1{
+		width: 150px;
+		font-size: 15px;
+		text-align: center;
+		padding-right: 50px;
+		position: relative;
+		top: 3px;
+	}
+	#input2{
+		width: 90px;
+		height: 47px;
+		position: relative;
+		left: 10px;
+		font-size: 13px;
+	}
+	.media{
+		display: block;
+		position: relative;
+		top: 20px;
+		left: 20px;
+	}
+	.toggle-block label{
+		display: block;
+		cursor: pointer;
+		z-index: 100;
+
+	}
+	header a{
+		display: block;
+	}
+			/*end of the section1*/
+	#report{
+		height: 800px;
+
+	}
+	#report_heading div{
+		font-size: 25px;
+		line-height: 0px; 
+	}
+
+	#report_heading h1{
+		font-size: 30px;
+
+	}	
+	#report_heading{
+		position: relative;
+		top: -80px;
+		right: 100px;
+	}
+	#statistcs{
+		position: relative;
+		bottom: 70px;
+		right: 160px;
+		width: 100%;
+		height: 100%;
+	}
+	#statistcs div h1 {
+		font-size: 25px;
+		margin-left: 5px;
+	}
+	#statistcs div h5 {
+		font-family: Sofia Pro Light, sans-serif;
+	}
+	.stat2{
+		position: relative;
+		left: 440px;
+	}
+	.stat3{
+		position: relative;
+		bottom: 200px;
+		left: 300px;
+	}
+	.stat1{
+		position: relative;
+		left: 50px;
+	}
+	#just{
+		border-bottom: 1px groove lightgray;
+		padding-right: 380px;
+		margin-left: 18px;
+		position: relative;
+		bottom: 700px;
+		display: inline-block;
+	}
+	#survey_report div{
+		position: relative;
+		top: 270px;
+		right: 900px;
+		width: 100%;
+
+	}
+	#survey_report{
+		z-index: 8;
+	}
+	.report_title h6{
+		width: 100% !important;
+		font-family: SOfia Pro Light;
+		line-height: 25px;
+		color: #ACAEB2;
+		position: relative;
+		left: -50px;
+	}
+	.report_documents a{
+			position: relative ;
+			right: 50px;
+	}
+
+	/*end of the report*/
+
+	#product{
+		height: 1350px;
+	}
+	#heading{
+		position: relative;
+		right: 90px;
+		top: 50px;
+	}
+	#heading h1{
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 45px;
+		margin-top: 200px;
+	}
+	#hand img{
+		position: relative;
+		top: -200px;
+	}
+	#hand{
+		position: relative;
+		top: 250px !important;
+		right: 950px;
+		margin-bottom: 400px;
+	}
+	
+	 dl{
+		font-size: 25px;
+		line-height: 45px;
+		position: relative;
+		right: 80px;
+		width: 500px !important;		
+	}
+	#description2 dd{
+		position: relative;
+		right: 60px;
+		width: 400px !important;
+	}
+	dt{
+		position: relative;
+		right: 20px;
+	}
+	/*end of the Product*/
+	#contact{
+		width: 100%;
+		padding-bottom: 150px;
+	}
+	#contact .header{
+		display: none;
+	}
+	.form h2{
+		position: relative;
+		top: 80px;
+		width: 420px;
+	}
+	.form form{
+		position: relative;
+		right: 470px;
+		top: 70px;
+	}
+	.form input{
+		width: 320px !important;
+		height: 50px !important;
+	}
+	textarea{
+		width: 340px !important;
+	}
+
+	.footer button{
+		display: block; 
+		font-family: Sofia Pro Bold, sans-serif;
+		padding-right: 70px;
+		padding-left: 60px;
+		height: 50px;
+		margin-left: 100px;
+		margin-bottom: 20px;
+
+	}
+	.logo2 img{
+		position: relative;
+		top: 155px;
+		right: 185px;
+	}
+	.footer{
+		position: relative;
+		right: 50px;
+		bottom: 120px;
+	}
+	.copyright h6{
+		position: relative;
+		right: 290px !important;
+		width: 300px;
+		top: 230px;
+		color: lightgray;
+
+	}
+	.sm img{
+		display: block;
+		position: relative;
+		top: 270px;
+		right: 540px;
+	}
+
+	/*end of the first media*/
+	@media screen and (min-width: 319px){
+			.description{
+				width: 400px;
+			}
+			#main_illustration img{
+				margin-left: 20px;
+			}
+			#report_heading  h1{
+				width: 400px;
+			}
+			#product{
+				height: 1480px;
+			}
+			#product dl{
+				width: 250px;
+			}
+			#product dd{
+				width: 300px;
+			}
+			.report_title h6{
+				width: 300px;
+			}
+			 .form {
+				width: 40px;
+			}
+
+	}	
+	/*end of the 2nd media query*/
+
